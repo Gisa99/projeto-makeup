@@ -1,0 +1,88 @@
+@media(max-width: 800px){
+    
+    
+    .menu{
+        display: none;
+    }
+    
+    main{
+        margin: auto;
+    }
+   
+}
+
+@media(min-width: 800px){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    main .lancamento, .batom, .make-velha{
+        width: 25vw;
+        height: 60vh;
+        display: block;
+    }
+
+  
+    .icon-menu{
+        display: none;
+    }
+    header{
+        background-color: rgb(61, 5, 68);
+        grid-area: header; 
+        
+    }
+    .menu{
+        height: 12vh;
+        background-color: rgb(61, 5, 68); 
+        display: flex;
+        position: relative;
+        justify-content: right;
+        margin-right: 60px;
+    }
+
+    .menu li{
+        display: inline-block;
+        width: 105px;
+        text-align: center;
+    }
+    
+
+    img{
+        width: 25vw;
+        height: 200px;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    footer{
+        margin-top: 20px;
+    }
+}
+@media(min-width: 1300px){
+    main{
+        display: flex;
+        height: 80vh;
+    }
+    main .lancamento, .batom, .make-velha{
+        width: 25vw;
+        height: 60vh;
+        display: block;
+        
+    }
+    .image{
+        margin: auto;
+        display: flex;
+    }
+
+    img{
+        width: 25vw;
+        height: 200px;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+   
+}
