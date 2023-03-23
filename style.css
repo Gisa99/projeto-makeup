@@ -172,6 +172,19 @@ main p{
     position: fixed;
 
 }
+.img-icon img:hover{
+    border: 2px solid rgba(61, 5, 68, 0.767);
+    border-radius: 50%;
+}
+
+.icon{
+    transition: 0.5s ease-in-out;
+    
+}
+
+.icon:hover{
+    transform: scale(1.1);
+}
 footer{
     background-color: rgb(61, 5, 68);
     color:blanchedalmond;

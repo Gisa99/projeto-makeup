@@ -11,7 +11,7 @@
    
 }
 
-@media(min-width: 800px){
+@media(min-width: 800px) and (max-width: 1299px){ 
     main{
         display: flex;
         flex-wrap: wrap;
@@ -21,7 +21,7 @@
     }
     main .lancamento, .batom, .make-velha{
         width: 25vw;
-        height: 60vh;
+        height: 70vh;
         display: block;
     }
 
@@ -64,7 +64,6 @@
 @media(min-width: 1300px){
     main{
         display: flex;
-        height: 80vh;
     }
     main .lancamento, .batom, .make-velha{
         width: 25vw;
